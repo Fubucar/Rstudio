@@ -1,0 +1,9 @@
+Package: generalUse
+Type: Package
+Title: Useful functions in general for data analysis
+Version: 0.0.0.9000
+Author: "Aaron Cordova <Cordova2@usf.edu>"
+Description: This package has within it a series of functions that will be useful in most general data analysis proccesses.
+    This may include; data cleaning, data visualization and statistical analysis just for some examples. They are easy to use to increase accessibility.
+License: CC0
+LazyData: true
