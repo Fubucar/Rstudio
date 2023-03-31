@@ -1,0 +1,29 @@
+---
+title: "Module 9"
+author: "Aaron Cordova"
+date: '2023-03-31'
+output: html_document
+---
+## Libraries
+```{r setup, include=FALSE}
+library(ggplot2)
+```
+
+## Create a plot
+```{r cars}
+USA <- ggplot(data = USArrests, aes(x = Murder, y = UrbanPop, color = Rape)) +
+  geom_point() +
+  labs(title = "US Arrests Data",x = "Murder",y = "UrbanPop",color = "Rape") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_color_gradient(name = "Rape", low = "blue", high = "red")
+
+```
+
+## Plot
+
+```{r pressure, echo=FALSE}
+USA
+```
+
+
